@@ -9,8 +9,7 @@ jobs:
 
     steps:
     - name: Saludar (custom action)
-      uses: ricnef2121/hello-world-javascript-action@v1.1
-      
+      uses: ricnef2121/custom-github-action@v1.1 ## name's repo
       with:
         who-to-greet: "Ricardo"
     - name: Tener copi local del repo
