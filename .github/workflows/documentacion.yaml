@@ -9,7 +9,8 @@ jobs:
 
     steps:
     - name: Saludar (custom action)
-      uses: ricnef2121/hello-world-action-by-ricnef2121@v1.1
+      uses: ricnef2121/hello-world-javascript-action@v1.1
+      
       with:
         who-to-greet: "Ricardo"
     - name: Tener copi local del repo
