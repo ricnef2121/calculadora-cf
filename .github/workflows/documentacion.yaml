@@ -8,6 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Saludar (custom action)
+      uses: actions/hello-world-action-by-ricnef2121@v1.1
+      with:
+        who-to-greet: "Ricardo"
     - name: Tener copi local del repo
       uses: actions/checkout@4.2.2
     - name: Instalar .Net en el runner
